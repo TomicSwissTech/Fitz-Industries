@@ -30,7 +30,7 @@ export function About() {
             
             <div className="mt-10 flex items-center gap-4">
               <div className="h-px w-12 bg-primary" />
-              <span className="text-white font-medium tracking-wider">Manuel Fitz, Founder</span>
+              <span className="text-white font-medium tracking-wider">Manuel Fitz, Gründer</span>
             </div>
           </motion.div>
 

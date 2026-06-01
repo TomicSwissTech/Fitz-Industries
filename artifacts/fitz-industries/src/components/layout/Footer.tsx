@@ -46,7 +46,7 @@ export function Footer() {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-xs">
-            © {new Date().getFullYear()} FITZ INDUSTRIES. Founder: Manuel Fitz.
+            © {new Date().getFullYear()} FITZ INDUSTRIES. Gründer: Manuel Fitz.
           </p>
           <div className="flex gap-6">
             <span className="text-white/40 text-xs uppercase tracking-widest">fitz.li</span>

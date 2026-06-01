@@ -5,6 +5,7 @@ export type Company = {
   description: string;
   location: string;
   coordinates: [number, number]; // [lat, lng]
+  contact: string; // E-Mail-Kontaktkanal
   website?: string;
 };
 
@@ -16,6 +17,7 @@ export const companies: Company[] = [
     description: "Die Dachgesellschaft der Gruppe. Zentrale Steuerung und strategische Ausrichtung aller Tochtergesellschaften unter der Führung von Manuel Fitz.",
     location: "St. Gallen, Schweiz",
     coordinates: [47.4245, 9.3767],
+    contact: "info@fhg.ag",
     website: "https://fhg.ag"
   },
   {
@@ -25,6 +27,7 @@ export const companies: Company[] = [
     description: "Entwicklung und Management von Premium-Immobilien und exklusiven Lifestyle-Konzepten.",
     location: "Zürich, Schweiz",
     coordinates: [47.3769, 8.5417],
+    contact: "info@rlh.ag",
     website: "https://rlh.ag"
   },
   {
@@ -33,7 +36,8 @@ export const companies: Company[] = [
     sector: "Bau & Konstruktion",
     description: "Hochwertige Bauausführung und Konstruktion für anspruchsvolle Architekturprojekte.",
     location: "Basel, Schweiz",
-    coordinates: [47.5596, 7.5886]
+    coordinates: [47.5596, 7.5886],
+    contact: "contact@fitz.li"
   },
   {
     id: "solar-concept",
@@ -41,7 +45,8 @@ export const companies: Company[] = [
     sector: "Solar & Energie",
     description: "Zukunftsweisende Solarenergielösungen für eine nachhaltige Energieversorgung.",
     location: "Luzern, Schweiz",
-    coordinates: [47.0502, 8.3093]
+    coordinates: [47.0502, 8.3093],
+    contact: "contact@fitz.li"
   },
   {
     id: "capital-1",
@@ -49,7 +54,8 @@ export const companies: Company[] = [
     sector: "Finanzen & Beteiligungen",
     description: "Strategische Finanzierungen, Asset Management und globale Unternehmensbeteiligungen.",
     location: "Zug, Schweiz",
-    coordinates: [47.1662, 8.5155]
+    coordinates: [47.1662, 8.5155],
+    contact: "contact@fitz.li"
   },
   {
     id: "qualitycars",
@@ -57,7 +63,8 @@ export const companies: Company[] = [
     sector: "Automobil / Premiumfahrzeuge",
     description: "Handel und Vermittlung von Premium- und Luxusfahrzeugen auf höchstem Niveau.",
     location: "Salzburg, Österreich",
-    coordinates: [47.8095, 13.0550]
+    coordinates: [47.8095, 13.0550],
+    contact: "contact@fitz.li"
   },
   {
     id: "fish-cloth",
@@ -65,7 +72,8 @@ export const companies: Company[] = [
     sector: "Mode & Bekleidung",
     description: "Exklusive Modemarke mit Fokus auf zeitloses Design und erstklassige Materialien.",
     location: "London, England",
-    coordinates: [51.5074, -0.1278]
+    coordinates: [51.5074, -0.1278],
+    contact: "contact@fitz.li"
   },
   {
     id: "usimport24",
@@ -73,7 +81,8 @@ export const companies: Company[] = [
     sector: "Import & Handel",
     description: "Spezialisierter Import und globaler Handel mit exklusiven Gütern aus Nordamerika.",
     location: "Miami / New York, USA",
-    coordinates: [25.7617, -80.1918]
+    coordinates: [25.7617, -80.1918],
+    contact: "contact@fitz.li"
   },
   {
     id: "cannacul",
@@ -81,7 +90,8 @@ export const companies: Company[] = [
     sector: "Cannabis & Cultivation",
     description: "Forschung, Anbau und Entwicklung von hochwertigen Cannabis-Produkten.",
     location: "Madrid, Spanien",
-    coordinates: [40.4168, -3.7038]
+    coordinates: [40.4168, -3.7038],
+    contact: "contact@fitz.li"
   },
   {
     id: "skin-supply",
@@ -89,7 +99,8 @@ export const companies: Company[] = [
     sector: "Beauty & Supply",
     description: "Premium Beauty-Produkte und dermatologische Versorgungslösungen.",
     location: "Dubai, VAE",
-    coordinates: [25.2048, 55.2708]
+    coordinates: [25.2048, 55.2708],
+    contact: "contact@fitz.li"
   },
   {
     id: "fitz-foundation",
@@ -97,6 +108,7 @@ export const companies: Company[] = [
     sector: "Stiftung",
     description: "Gemeinnütziger Arm der Gruppe. Dedizierte Unterstützung von Tier- und Kinderheimen weltweit.",
     location: "St. Gallen, Schweiz",
-    coordinates: [47.4245, 9.3768] // Slightly offset from holding
+    coordinates: [47.4245, 9.3768], // Slightly offset from holding
+    contact: "contact@fitz.li"
   }
 ];

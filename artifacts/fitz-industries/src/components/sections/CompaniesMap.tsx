@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { companies } from "@/data/companies";
-import { ExternalLink, MapPin, Building2, X } from "lucide-react";
+import { ExternalLink, MapPin, Building2, X, Mail } from "lucide-react";
 import { geoEquirectangular, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import worldData from "world-atlas/countries-110m.json";
@@ -101,6 +101,10 @@ export function CompaniesMap() {
                   <div className="flex items-center gap-1.5 text-xs opacity-60">
                     <MapPin size={14} aria-hidden="true" />
                     <span>{company.location}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5 text-xs opacity-60 mt-1">
+                    <Mail size={14} aria-hidden="true" />
+                    <span>{company.contact}</span>
                   </div>
                 </button>
               ))}
@@ -220,6 +224,13 @@ export function CompaniesMap() {
                         <MapPin size={14} aria-hidden="true" />
                         <span>{selectedCompany.location}</span>
                       </div>
+                      <a
+                        href={`mailto:${selectedCompany.contact}`}
+                        className="flex items-center gap-2 hover:text-primary transition-colors"
+                      >
+                        <Mail size={14} aria-hidden="true" />
+                        <span>{selectedCompany.contact}</span>
+                      </a>
                     </div>
                     {selectedCompany.website ? (
                       <a

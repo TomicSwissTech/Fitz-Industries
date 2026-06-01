@@ -40,7 +40,7 @@ export function Contact() {
                     <MapPin className="text-primary w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-white font-medium mb-1">Headquarters</h4>
+                    <h4 className="text-white font-medium mb-1">Hauptsitz</h4>
                     <p className="text-white/60 text-sm">St. Gallen, Schweiz</p>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ export function Contact() {
                     <Globe className="text-primary w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-white font-medium mb-1">Group Domain</h4>
+                    <h4 className="text-white font-medium mb-1">Gruppen-Domain</h4>
                     <p className="text-white/60 text-sm">fitz.li</p>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ export function Contact() {
                     <Mail className="text-primary w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-white font-medium mb-1">Email</h4>
+                    <h4 className="text-white font-medium mb-1">E-Mail</h4>
                     <p className="text-white/60 text-sm">contact@fitz.li</p>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ export function Contact() {
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-white/70 mb-2">Email</label>
+                      <label className="block text-sm font-medium text-white/70 mb-2">E-Mail</label>
                       <input 
                         required
                         type="email" 
