@@ -1,0 +1,1 @@
+- [Custom interactive maps](custom-interactive-map.md) — project land geometry AND markers with the SAME d3-geo projection so pins land on the right continents.
